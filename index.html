@@ -1,0 +1,573 @@
+<!DOCTYPE html>
+<html lang="pl">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible"
+        content="IE=edge">
+    <meta name="viewport"
+        content="width=device-width, initial-scale=1.0">
+    <title>Zielony zakątek</title>
+    <link rel="stylesheet"
+        href="style.css">
+    <link rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <link rel="stylesheet"
+        href="https://unpkg.com/swiper@7/swiper-bundle.min.css" />
+</head>
+
+<body>
+    <header class="header">
+        <div id="menu-btn"
+            class='fas fa-bars'></div>
+        <a href="#"
+            class='logo'><span>zielony</span> zakątek<br>
+            <p>ekologiczna uprawa <span>ziół</span></p>
+        </a>
+        <nav class="navbar"
+            id="navbar">
+            <a href="#home">Główna</a>
+            <a href="#featured">Zioła</a>
+            <a href="#services">Usługi</a>
+            <a href="#contact">Kontakt</a>
+        </nav>
+        <div id="login-btn">
+            <button class='btn'>zaloguj</button>
+            <i class="far fa-user"></i>
+        </div>
+
+        <div class="login-form-container">
+            <span id='close-login-form'
+                class='fas fa-times'></span>
+            <form action="">
+                <h3>zaloguj</h3>
+                <input type="email"
+                    placeholder="email"
+                    class='box'>
+                <input type="hasło"
+                    placeholder="hasło"
+                    class='box'>
+                <p>zapomniałeś hasła? <a href="#">przypomnij</a></p>
+                <input type="submit"
+                    value="zaloguj"
+                    class='btn'>
+                <p>lub zaloguj się przez</p>
+                <div class="buttons">
+                    <a href="#"
+                        class='btn'>google</a>
+                    <a href="#"
+                        class='btn'>facebook</a>
+                </div>
+                <p>nie masz konta? <a href="#">stwórz konto</a></p>
+            </form>
+        </div>
+
+    </header>
+    <section class="home"
+        id='home'>
+        <h1 class="home-parallax"
+            data-speed='-2'>zioła dla ciebie</h1>
+        <!-- <img src="img/ziola_1.jpg"
+            alt="zioła"
+            data-speed='5'
+            class="home-parallax"> -->
+        <a href="#"
+            class='btn home-parallax'
+            data-speed='7'>wszystkie zioła</a>
+    </section>
+    <section class="herbs"
+        id='herbs'>
+        <h1 class='heading'>popularne <span>zioła</span></h1>
+        <div class="swiper herbs-slider">
+            <div class="swiper-wrapper">
+                <div class="swiper-slide box">
+                    <img src="img/ziola_2.jpg"
+                        alt="ziola">
+                    <div class="content">
+                        <h3>Arnika górska </h3>
+                        <p>
+                            Arnica montana – Arnika górska, Kupalnik górski
+                            Asteraceae – Astrowate
+                        </p>
+                        <a href="#"
+                            class='btn'>czytaj</a>
+                    </div>
+                </div>
+                <div class="swiper-slide box">
+                    <img src="img/ziola_3.jpg"
+                        alt="ziola">
+                    <div class="content">
+                        <h3>Naostrzyk lekarski </h3>
+                        <p>
+                            Melilotus officinalis - Nostrzyk lekarski, nostrzyk
+                            żółty Fabaceae, dawniej Papilionaceae – Bobowate,
+                            dawniej Motylkowate Surowiec stanowi ziele nostrzyka
+                            - Melioti herba, zebrane w okresie kwitnienia w VII
+                            i
+                            wysuszone w warunkach naturalnych (w cieniu i
+                            przewiewie) lub w suszarniach w temp. do 35 °C.</p>
+                        <a href="#"
+                            class='btn'>czytaj</a>
+                    </div>
+                </div>
+                <div class="swiper-slide box">
+                    <img src="img/ziola_4.jpg"
+                        alt="ziola">
+                    <div class="content">
+                        <h3>Nagietek lekarski </h3>
+                        <p>
+                            Calendula officinalis L. - Nagietek lekarski
+                            Asteraceae (Compositae) - Astrowate (Złożone) W
+                            lecznictwie stosowany jest kwiat nagietka
+                            języczkowaty oraz koszyczek nagietka, zbierane w
+                            początkowym okresie kwitnienia od VI do IX i
+                            wysuszone w warunkach naturalnych.
+                        </p>
+                        <a href="#"
+                            class='btn'>czytaj</a>
+                    </div>
+                </div>
+                <div class="swiper-slide box">
+                    <img src="img/ziola_5.jpg"
+                        alt="ziola">
+                    <div class="content">
+                        <h3>Aloes drzewiasty </h3>
+                        <p>
+                            Aloë arborescens– Aloes drzewiasty Asphodelaceae,
+                            dawniej Liliaceae – Złotogłowowate, dawniej
+                            zaliczany do Liliowatych Surowiec stanowią liście,
+                            uprawiane szklarniowo, zbierane z roślin
+                            trzyletnich, których podlewanie przerywa się na 6-8
+                            dni przed zbiorem, co powoduje zwiększenie związków
+                            o działaniu immunostymulującym.
+                        </p>
+                        <a href="#"
+                            class='btn'>czytaj</a>
+                    </div>
+                </div>
+                <div class="swiper-slide box">
+                    <img src="img/ziola_6.jpg"
+                        alt="ziola">
+                    <div class="content">
+                        <h3>Babka zwyczajna </h3>
+                        <p>
+                            Arnica montana – Arnika górska, Kupalnik górski
+                            Asteraceae – Astrowate
+                        </p>
+                        <a href="#"
+                            class='btn'>czytaj</a>
+                    </div>
+                </div>
+            </div>
+            <div class="swiper-pagination"></div>
+
+        </div>
+    </section>
+    <section class="icons-container">
+        <div class="icons">
+            <i class="fas fa-seedling"></i>
+            <div class="content">
+                <h3>50</h3>
+                <p>mieszanek</p>
+            </div>
+        </div>
+        <div class="icons">
+            <i class="fas fa-seedling"></i>
+            <div class="content">
+                <h3>100</h3>
+                <p>ziół</p>
+            </div>
+        </div>
+        <div class="icons">
+            <i class="fas fa-seedling"></i>
+            <div class="content">
+                <h3>20</h3>
+                <p>sklepów</p>
+            </div>
+        </div>
+        <div class="icons">
+            <i class="fas fa-seedling"></i>
+            <div class="content">
+                <h3>15 lat</h3>
+                <p>doświadczenia</p>
+            </div>
+        </div>
+    </section>
+    <section class="services"
+        id='services'>
+        <h1 class="heading">nasze <span>usługi</span></h1>
+        <div class="box-container">
+            <div class="box">
+                <i class="fas fa-leaf"></i>
+                <h3>Sprzedarz</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    Similique, repellendus!</p>
+                <a href="#"
+                    class='btn'>wiecej</a>
+            </div>
+            <div class="box">
+                <i class="fas fa-leaf"></i>
+                <h3>Mieszanki ziół</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    Similique, repellendus!</p>
+                <a href="#"
+                    class='btn'>wiecej</a>
+            </div>
+            <div class="box">
+                <i class="fas fa-leaf"></i>
+                <h3>Doradztwo</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    Similique, repellendus!</p>
+                <a href="#"
+                    class='btn'>wiecej</a>
+            </div>
+            <div class="box">
+                <i class="fas fa-leaf"></i>
+                <h3>Nasiona</h3>
+                <p>Lorem ipsum dolor sit amet consectetur
+                    adipisicing elit.
+                    Similique, repellendus!</p>
+                <a href="#"
+                    class='btn'>wiecej</a>
+            </div>
+        </div>
+    </section>
+    <section class="featured"
+        id="featured">
+        <h1 class="heading">
+            mieszanki i <span>zioła</span>
+        </h1>
+        <div class="swiper featured-slider">
+            <div class="swiper-wrapper">
+                <div class="swiper-slide box">
+                    <img src="img/rumianek.jpg"
+                        alt="zdjecie">
+                    <h3>Naparstnica purpurowa </h3>
+                    <div class="content">
+                        <ul>
+                            <li><i class="fab fa-pagelines"></i>Układ moczowy
+                            </li>
+                            <li><i class="fab fa-pagelines"></i>Układ oddechowy
+                            </li>
+                            <li><i class="fab fa-pagelines"></i>Układ krążenia
+                            </li>
+                        </ul>
+                    </div>
+                    <a href="#"
+                        class='btn'>sprawdź</a>
+                </div>
+                <div class="swiper-slide box">
+                    <img src="img/dziurawiec.jpg"
+                        alt="zdjecie">
+                    <h3>Miłorząb japoński</h3>
+                    <div class="content">
+                        <ul>
+                            <li><i class="fab fa-pagelines"></i>Układ moczowy
+                            </li>
+                            <li><i class="fab fa-pagelines"></i>Układ oddechowy
+                            </li>
+                            <li><i class="fab fa-pagelines"></i>Układ krążenia
+                            </li>
+                        </ul>
+                    </div>
+                    <a href="#"
+                        class='btn'>sprawdź</a>
+                </div>
+                <div class="swiper-slide box">
+                    <img src="img/kozłek.jpg"
+                        alt="zdjecie">
+                    <h3>Oczar wirginijski </h3>
+                    <div class="content">
+                        <ul>
+                            <li><i class="fab fa-pagelines"></i>Układ moczowy
+                            </li>
+                            <li><i class="fab fa-pagelines"></i>Układ oddechowy
+                            </li>
+                            <li><i class="fab fa-pagelines"></i>Układ krążenia
+                            </li>
+                        </ul>
+                    </div>
+                    <a href="#"
+                        class='btn'>sprawdź</a>
+                </div>
+                <div class="swiper-slide box">
+                    <img src="img/stefan-rodriguez-bzSgdupS95U-unsplash.jpg"
+                        alt="zdjecie">
+                    <h3>Złocień maruna </h3>
+                    <div class="content">
+                        <ul>
+                            <li><i class="fab fa-pagelines"></i>Układ moczowy
+                            </li>
+                            <li><i class="fab fa-pagelines"></i>Układ oddechowy
+                            </li>
+                            <li><i class="fab fa-pagelines"></i>Układ krążenia
+                            </li>
+                        </ul>
+                    </div>
+                    <a href="#"
+                        class='btn'>sprawdź</a>
+                </div>
+                <div class="swiper-slide box">
+                    <img src="img/thuy-lam-AoyoI3ILY_s-unsplash.jpg"
+                        alt="zdjecie">
+                    <h3>Kasztanowiec zwyczajny </h3>
+                    <div class="content">
+                        <ul>
+                            <li><i class="fab fa-pagelines"></i>Układ moczowy
+                            </li>
+                            <li><i class="fab fa-pagelines"></i>Układ oddechowy
+                            </li>
+                            <li><i class="fab fa-pagelines"></i>Układ krążenia
+                            </li>
+                        </ul>
+                    </div>
+                    <a href="#"
+                        class='btn'>sprawdź</a>
+                </div>
+            </div>
+            <div class="swiper-pagination"></div>
+
+        </div>
+        <div class="swiper featured-slider">
+            <div class="swiper-wrapper">
+                <div class="swiper-slide box">
+                    <img src="img/rumianek.jpg"
+                        alt="zdjecie">
+                    <h3>Naparstnica purpurowa </h3>
+                    <div class="content">
+                        <ul>
+                            <li><i class="fab fa-pagelines"></i>Układ moczowy
+                            </li>
+                            <li><i class="fab fa-pagelines"></i>Układ oddechowy
+                            </li>
+                            <li><i class="fab fa-pagelines"></i>Układ krążenia
+                            </li>
+                        </ul>
+                    </div>
+                    <a href="#"
+                        class='btn'>sprawdź</a>
+                </div>
+                <div class="swiper-slide box">
+                    <img src="img/dziurawiec.jpg"
+                        alt="zdjecie">
+                    <h3>Miłorząb japoński</h3>
+                    <div class="content">
+                        <ul>
+                            <li><i class="fab fa-pagelines"></i>Układ moczowy
+                            </li>
+                            <li><i class="fab fa-pagelines"></i>Układ oddechowy
+                            </li>
+                            <li><i class="fab fa-pagelines"></i>Układ krążenia
+                            </li>
+                        </ul>
+                    </div>
+                    <a href="#"
+                        class='btn'>sprawdź</a>
+                </div>
+                <div class="swiper-slide box">
+                    <img src="img/kozłek.jpg"
+                        alt="zdjecie">
+                    <h3>Oczar wirginijski </h3>
+                    <div class="content">
+                        <ul>
+                            <li><i class="fab fa-pagelines"></i>Układ moczowy
+                            </li>
+                            <li><i class="fab fa-pagelines"></i>Układ oddechowy
+                            </li>
+                            <li><i class="fab fa-pagelines"></i>Układ krążenia
+                            </li>
+                        </ul>
+                    </div>
+                    <a href="#"
+                        class='btn'>sprawdź</a>
+                </div>
+                <div class="swiper-slide box">
+                    <img src="img/stefan-rodriguez-bzSgdupS95U-unsplash.jpg"
+                        alt="zdjecie">
+                    <h3>Złocień maruna </h3>
+                    <div class="content">
+                        <ul>
+                            <li><i class="fab fa-pagelines"></i>Układ moczowy
+                            </li>
+                            <li><i class="fab fa-pagelines"></i>Układ oddechowy
+                            </li>
+                            <li><i class="fab fa-pagelines"></i>Układ krążenia
+                            </li>
+                        </ul>
+                    </div>
+                    <a href="#"
+                        class='btn'>sprawdź</a>
+                </div>
+                <div class="swiper-slide box">
+                    <img src="img/thuy-lam-AoyoI3ILY_s-unsplash.jpg"
+                        alt="zdjecie">
+                    <h3>Kasztanowiec zwyczajny </h3>
+                    <div class="content">
+                        <ul>
+                            <li><i class="fab fa-pagelines"></i>Układ moczowy
+                            </li>
+                            <li><i class="fab fa-pagelines"></i>Układ oddechowy
+                            </li>
+                            <li><i class="fab fa-pagelines"></i>Układ krążenia
+                            </li>
+                        </ul>
+                    </div>
+                    <a href="#"
+                        class='btn'>sprawdź</a>
+                </div>
+            </div>
+            <div class="swiper-pagination"></div>
+
+        </div>
+    </section>
+    <section class="newsletter">
+        <h3>Subskrybuj aby być na bieżąco!</h3>
+        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Voluptates,
+            voluptas?</p>
+        <form action="">
+            <input type="email"
+                placeholder="wpisz adres email">
+            <input type="submit"
+                class='subscribe'
+                value="wyślij">
+        </form>
+    </section>
+    <section class="reviews"
+        id="reviews">
+        <h1 class="heading">
+            opinie <span>klientów</span>
+        </h1>
+        <div class="swiper reviews-slider">
+            <div class="swiper-wrapper">
+                <div class="swiper-slide box">
+                    <img src="img/person1.jpg"
+                        alt="zdjęcie">
+                    <div class="content">
+                        <p>Lorem ipsum dolor sit amet consectetur, adipisicing
+                            elit. Atque, quod illo harum sit dicta molestias
+                            mollitia suscipit animi voluptatem nihil.</p>
+                        <h3>Gniewomir Kowalski</h3>
+                        <div class="stars">
+                            <i class="fas fa-star"></i><i
+                                class="fas fa-star"></i><i
+                                class="fas fa-star"></i><i
+                                class="fas fa-star"></i>
+                            <i class="fas fa-star-half-alt"></i>
+                        </div>
+                    </div>
+                </div>
+                <div class="swiper-slide box">
+                    <img src="img/person2.jpg"
+                        alt="zdjęcie">
+                    <div class="content">
+                        <p>Lorem ipsum dolor sit amet consectetur, adipisicing
+                            elit. Atque, quod illo harum sit dicta molestias
+                            mollitia suscipit animi voluptatem nihil.</p>
+                        <h3>Gniewomir Kowalski</h3>
+                        <div class="stars">
+                            <i class="fas fa-star"></i><i
+                                class="fas fa-star"></i><i
+                                class="fas fa-star"></i><i
+                                class="fas fa-star"></i>
+                            <i class="fas fa-star-half-alt"></i>
+                        </div>
+                    </div>
+                </div>
+                <div class="swiper-slide box">
+                    <img src="img/person3.jpg"
+                        alt="zdjęcie">
+                    <div class="content">
+                        <p>Lorem ipsum dolor sit amet consectetur, adipisicing
+                            elit. Atque, quod illo harum sit dicta molestias
+                            mollitia suscipit animi voluptatem nihil.</p>
+                        <h3>Gniewomir Kowalski</h3>
+                        <div class="stars">
+                            <i class="fas fa-star"></i><i
+                                class="fas fa-star"></i><i
+                                class="fas fa-star"></i><i
+                                class="fas fa-star"></i>
+                            <i class="fas fa-star-half-alt"></i>
+                        </div>
+                    </div>
+                </div>
+                <div class="swiper-slide box">
+                    <img src="img/person4.jpg"
+                        alt="zdjęcie">
+                    <div class="content">
+                        <p>Lorem ipsum dolor sit amet consectetur, adipisicing
+                            elit. Atque, quod illo harum sit dicta molestias
+                            mollitia suscipit animi voluptatem nihil.</p>
+                        <h3>Gniewomir Kowalski</h3>
+                        <div class="stars">
+                            <i class="fas fa-star"></i><i
+                                class="fas fa-star"></i><i
+                                class="fas fa-star"></i><i
+                                class="fas fa-star"></i>
+                            <i class="fas fa-star-half-alt"></i>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="swiper-pagination"></div>
+
+        </div>
+    </section>
+    <section class="contact"
+        id='contact'>
+        <h1 class="heading"><span>kontakt</span></h1>
+        <div class="row">
+            <iframe class='map'
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d82851.91212233804!2d20.96381734424694!3d52.228742855356394!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x471ecc669a869f01%3A0x72f0be2a88ead3fc!2sWarszawa!5e0!3m2!1spl!2spl!4v1633896988525!5m2!1spl!2spl"
+                allowfullscreen=""
+                loading="lazy"></iframe>
+            <form action="">
+                <h3>zachęcamy do kontaktu</h3>
+                <input type="text"
+                    class="box"
+                    placeholder="imię">
+                <input type="email"
+                    class="box"
+                    placeholder="email">
+                <input type="number"
+                    class="box"
+                    placeholder="numer">
+                <textarea placeholder="wiadomość"
+                    class='box'
+                    cols="30"
+                    rows="10"></textarea>
+                <input type="submit"
+                    value="wyślij"
+                    class="btn">
+            </form>
+        </div>
+    </section>
+    <footer>
+        <div class="box-container">
+            <div class="box">
+                <h3>nawigacja</h3>
+                <a href="#"><i class="fas fa-arrow-right"></i>Glówna</a>
+                <a href="#"><i class="fas fa-arrow-right"></i>Ziola</a>
+                <a href="#"><i class="fas fa-arrow-right"></i>Usługi</a>
+                <a href="#"><i class="fas fa-arrow-right"></i>Kontakt</a>
+            </div>
+            <div class="box">
+                <h3>adres</h3>
+                <a href="#"><i class="fas fa-phone"></i>123-456-789</a>
+                <a href="#"><i
+                        class="fas fa-envelope"></i>jacekmaciejak"poczta.fm</a>
+                <a href="#"><i class="fas fa-map-marker-alt"></i>Warszawa</a>
+            </div>
+            <div class="box">
+                <h3>społeczność</h3>
+                <a href="#"><i class="fab fa-facebook-f"></i>facebook</a>
+                <a href="#"><i class="fab fa-linkedin"></i>linkedin</a>
+                <a href="#"><i class="fab fa-instagram"></i>instagram</a>
+            </div>
+        </div>
+    </footer>
+
+</body>
+<script src="https://unpkg.com/swiper@7/swiper-bundle.min.js"></script>
+<script src="js/script.js"></script>
+
+</html>
