@@ -1,2 +1,2 @@
-# zielony-zak-tek
+# zielony-zakatek
 Uprawa ziół
